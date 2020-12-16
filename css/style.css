@@ -1,0 +1,590 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.containerr {
+    width: 1015px;
+    margin: 0 auto;
+}
+.dv::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.site {
+    margin: 0;
+    font-size: 40px;
+    color: black;
+    line-height: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header.header {
+    background: url(../img/Пшеница.jpg) no-repeat center;
+    min-height: 550px;
+    padding-top: 60px;
+    background-size: cover;
+}
+
+.top .logo {
+    float: left;
+    width: 140px;
+    height: 76px;
+}
+.top .logo img {
+    width: 140px;
+    height: 76px;
+}
+.top nav {
+    float: right;
+    width: 600px;
+    text-align: right;
+    margin-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.top nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 19px 0 20px 0;
+}
+.top nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+.top nav ul li:first-child {
+    margin-left: 0;
+}
+.top nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.pp {
+    margin: 0;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 70px;
+    line-height: 70px;
+    color: white;
+    font-weight: bold;
+}
+.new {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.new h2 {
+    margin-bottom: 95px;
+}
+.item {
+    padding-left: 35px;
+    width: 363px;
+    border-right: 1px solid #e5e5e5;
+    position: relative;
+}
+.item h3 {
+    margin-bottom: 40px;
+}
+.item:first-child {
+    float: left;
+    border-left: 1px solid #e5e5e5;
+}
+.item:last-child {
+    float: right;
+}
+.item .item-desc {
+    position: absolute;
+    top: 75px;
+    right: 0px;
+}
+.item .item-desc table{
+    border-collapse: collapse;
+    text-transform: uppercase;
+    width: 150px;
+    font-weight: bold;
+}
+.item .item-desc table td {
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+}
+.item .item-desc p {
+    width: 150px;
+    color: #404040;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.item .img-item {
+    width: 319px;
+    height: 459px;
+}
+.item .img-item img{
+    width: 319px;
+    height: 459px;
+    padding-left: 10px;
+}
+.item p {
+    line-height: 30px;
+    color: #404040;
+    padding-right: 25px;
+    margin: 0;
+}
+.buy-item {
+    margin-top: 65px;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 20px;
+}
+.detail {
+    color: #834700;
+    border: 2px solid #834700;
+}
+
+.buy {
+    color: white;
+    background-color: #834700;
+    border: 2px solid #834700;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+.buy:hover {
+    color: white;
+    background-color: #6a3900;
+}
+.buy:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #6a3900;
+}
+.ft {
+    background-color: #ffcb78;
+    padding-top: 80px;
+    padding-bottom: 95px;
+}
+
+.ftb ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ftb ul li {
+    width: 210px;
+    float: left;
+    margin-right: 192px;
+    position: relative; nav
+}
+.ftb ul li::before {
+    content: "";
+    position: absolute;
+}
+.ftb ul li.ftb1::before {
+    width: 50px;
+    height: 68px;
+    background-position: -5px -5px;
+}
+.ftb ul li.ftb2::before {
+    width: 46px;
+    height: 65px;
+    background-position: -65px -5px;
+}
+.ftb ul li.ftb3::before {
+    width: 63px;
+    height: 58px;
+    background-position: -121px -5px;
+}
+.ftb ul li:last-child {
+    margin-right: 0;
+}
+
+.ftb ul li h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 105px;
+    margin: 0;
+}
+.ftb ul li p {
+    color: #404040;
+    line-height: 30px;
+    width: 210px;
+    margin: 30px 0 0 0;
+}
+.sh {
+    padding-top: 95px;
+    padding-bottom: 20px;
+}
+.sh h2 {
+    margin-bottom: 70px;
+}
+.sh h3 {
+    font-size: 20px;
+    display: inline-block;
+}
+.sh dt i {
+    float: right;
+    line-height: 40px;
+    font-style: italic;
+}
+.sh dt i a {
+    color: #834700;
+}
+
+.sh dd {
+    margin: 0;
+}
+.sh dd p {
+    width: 480px;
+    color: #404040;
+    line-height: 30px;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 55px;
+}
+.sh dd img {
+    float: right;
+    padding-top: 10px;
+}
+.rt {
+    background-color: #ede5d8;
+    padding: 90px 0;
+}
+.rt h2 {
+    margin: 0;
+}
+.rt blockquote {
+    margin: 0;
+}
+.rt blockquote p {
+    width: 690px;
+    line-height: 30px;
+    color: #404040;
+    margin: 80px 0 40px;
+    position: relative;
+}
+.rt blockquote p::before {
+    position: absolute;
+    content: "";
+    width: 41px;
+    height: 31px;
+    background: url() no-repeat;
+    left: -107px;
+}
+.rt blockquote cite {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 55px;
+}
+.rt blockquote a {
+    color: rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.th {
+    padding: 100px 0 90px;
+}
+.th h2 {
+    margin-bottom: 90px;
+}
+.th table {
+    border-collapse: collapse;
+    width: 100%;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.th table td {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    color: #404040;
+}
+.th table thead {
+    color: #999999;
+    font-size: 11px;
+    text-align: left;
+}
+.th table thead th {
+    vertical-align: top;
+    line-height: 30px;
+    height: 60px;
+    font-weight: normal;
+}
+.th table thead th:last-child {
+    text-align: right;
+}
+.th table tbody td:first-child {
+    font-weight: bold;
+    width: 400px;
+}
+.th table tbody td:last-child {
+    text-align: right;
+}
+.th table tbody td sup {
+    font-size: 8px;
+    background-color: black;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.forma {
+    background-color: #ffcb78;
+    padding: 90px 0 110px 0;
+}
+.forma p {
+    margin: 80px 0 70px 0;
+    width: 650px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #404040;
+}
+.forma form .form1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.forma form .rgn {
+    width: 630px;
+}
+.forma form .rgn .form1:nth-child(1) {
+    float: left;
+}
+.forma form .rgn .form1:nth-child(1) input,
+.forma form .rgn .form1:nth-child(2) input{
+    width: 290px;
+}
+.forma form  .rgn .form1:nth-child(2) {
+    float: right
+}
+
+.forma  input[type="text"],
+.forma  input[type="tel"],
+.forma  input[type="email"],
+.forma  select,
+.forma  textarea {
+    display: block;
+    width: 630px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #e5b66c;
+    border: none;
+    margin: 10px 0 25px;
+    padding: 15px;
+}
+
+.forma  input:focus[type="text"],
+.forma  input:focus[type="tel"],
+.forma  input:focus[type="email"],
+.forma  select:focus,
+.forma  textarea:focus { 
+    background-color: white;
+    text-transform: uppercase;
+    outline: none;
+}
+.forma  select {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.3)
+}
+.forma  textarea {
+    height: 120px;
+    resize: none;
+}
+.forma input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.forma .form1 #check_l span {
+    margin: 15px 0 45px 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.forma .form1 #check_l span::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #e5b66c;
+    top: -15px;
+    left: -50px;
+}
+.forma .form1 #check_l span:hover::before {
+    background-color: #d9ad66;
+}
+.forma .form1 #check_l>input:checked+span::before {
+    background-color: #e5b66c;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.forma .form1 #check_l>input:checked+span:hover::before {
+    background-color: #d9ad66;
+}
+.forma input[type="submit"] {
+    border: none;
+    background-color: #834700;
+    color: white;
+    outline: none;
+}
+
+footer {
+    height: 235px;
+    padding: 60px 0 0 0;
+    background-color: rgb(0, 0, 0);
+}
+footer .footer-logo {
+    margin-right: 40px;
+    float: left;
+    width: 140px;
+    height: 76px;
+}
+
+footer .footer-logo img {
+    width: 140px;
+    height: 76px;
+}
+.ftp nav {
+    margin-right: 108px;
+    float: right;
+    width: 600px;
+    text-align: right;
+    margin-top: 10px;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+.ftp nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 19px 0 20px 0;
+}
+.ftp nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+.ftp nav ul li:first-child {
+    margin-left: 0;
+}
+.ftp nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.ftb {
+    vertical-align: bottom;
+}
+.ftb .social {
+    margin-top: 45px;
+    float: left;
+    font-size: 0;
+    width: 218px;
+}
+.ftb .social a {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #332d24;
+    background-color: #1b1b1b;
+    position: relative;
+    border-collapse: collapse;
+}
+.ftb .social a:nth-child(2) {
+    left: -1px;
+}
+.ftb .social a:last-child {
+    border-right: 1px solid #332d24;
+    left: -2px;
+}
+
+
+
+.ftb .social a::before {
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.ftb .social a.inst::before {
+    margin-left: -7px;
+    margin-top: -7px;
+    width: 14px;
+    height: 14px;
+    background-position: -60px -5px;
+}
+.ftb .social a.fb::before {
+    margin-left: -4px;
+    margin-top: -8px;
+    width: 8px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+.ftb .social a.vk::before {
+    margin-left: -10px;
+    margin-top: -6px;
+    width: 20px;
+    height: 11px;
+    background-position: -5px -49px;
+}
+.ftb p {
+    color: #989898;
+    float: left;
+    margin: 0;
+    font-size: 14px;
+    margin-left: 92px;
+    margin-top: 60px;
+    width: 230px;
+}
+.ftb .author {
+    color: #989898;
+    font-weight: bold;
+    padding-top: 45px;
+}
+.ftb .author-logo {
+    float: left;
+    width: 70px;
+    height: 70px;
+    background-color: #1b1b1b;
+    border: 1px solid #332d24;
+    position: relative;
+    margin-left: 175px;
+    margin-right: 30px;
+}
+
+
+.ftb .author-logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -14px;
+    margin-top: -17px;
+}
+.ftb .author b{
+    display: inline-block;
+    width: 170px;
+    font-size: 14px;
+}
+
+
+
